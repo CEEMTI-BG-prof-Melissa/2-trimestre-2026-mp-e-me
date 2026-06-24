@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <title>CONTROLES DE FORMULÁRIOS</title>
+    </head>
+    <body>
+        <h1>Preferências</h1>
+         <form action="/index.html" method = "get"> 
+         <label for= "Nome">
+            Nome:<input type="text" id="Nome" name="nome">
+        </label>
+        <p>Turno:</p>
+    <input type="radio" name="turno" id="manha" value="manha">
+    <label for="manha">Manhã</label>
+    <br>
+    <input type="radio" name="turno" id="tarde" value="tarde">
+    <label for="tarde">Tarde</label>
+    <br>
+
+    <input type="radio" name="turno" id="noite" value="noite">
+    <label for="noite">Noite</label>
+    <br>
+    <p>Quais áreas da tecnologia você tem interesse?</p>
+    <input type="checkbox" name="areas" id="programacao" value="programacao">
+    <label for="programacao">Programação</label>
+    <br>
+
+    <input type="checkbox" name="areas" id="design" value="design">
+    <label for="design">Design</label>
+    <br>
+    <input type="checkbox" name="areas" id="Banco de Dados" value="Banco de Dados">
+    <label for="Banco de Dados">Banco de Dados</label>
+    <br>
+    <input type="checkbox" name="areas" id="redes" value="redes">
+    <label for="redes">Redes</label>
+<br>
+    <p>Qual sua cor favorita? <input type="color"></p>
+    <p>Qual seu nível de satisfação?</p> 
+    <input type="range">
+    <p>Qual o seu horário preferido?</p>
+    <input type="time">
+    <p>Envie um arquivo <input type="submit" value="Escolher arquivo"> Nenhum arquivo escolhido</p>
+    
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar">
+  
+   
+    </body>
+</html>

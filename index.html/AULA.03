@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <title>FORMULÁRIO</title>
+    </head>
+    <body>
+        <form action="/index.html" method = "get"> 
+       
+            <label for= "Nome">Nome:</label>
+            <input type="text" id="Nome" name="nome">
+            <br>
+            
+            <textarea></textarea>
+            <br>
+            <select id="estados" name="estados">
+                <option value="MG"> Minas Gerais </option>
+                <option value="São Paulo"> São Paulo </option>
+                <option value="Rio de Janeiro"> Rio de Janeiro </option>
+                <option value="Espirito Santo"> Espirito Santo</option>
+                <option value="Santa Catarina"> Santa Catarina </option>
+                <option value="Rio Grande do Sul"> Rio Grande do Sul </option>
+                <option value="Paraná"> Paraná </option>
+            </select>
+            <br>
+            <input type="submit" value="Envio">
+            <input type="reset" value="Limpar">
+        </form>    
+
+        </html>
